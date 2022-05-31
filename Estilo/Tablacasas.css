@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.Title_Casas{
+	text-align: center;
+	font-size: 30px;
+	font-family: Ginebra;
+	color: #161616;
+	margin-top: 5%;
+	font-weight: 100;
+	font-family: georina;
+}
+
+.RenderShow{
+	width: 100%;
+	max-width: 1500px;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+.RenderShow .Render{
+	width: 330px;
+	height: 330px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0,25s;
+}
+
+.RenderShow .Render:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.RenderShow .Render img{
+	width: 330px;
+	height: 220px;	
+}
+
+.RenderShow .Render h2{
+	font-size: 15px;
+	color: #484848
+}
+
+.RenderShow .Render p{
+	padding: 0 .5rem;
+	font-size: 15px;
+	font-weight: 300;
+	color: #AAAAAA;
+	display: inline;
+}
+
+@media screen and (max-width:  1111px){
+
+	.RenderShow{
+		height: 100%;
+	}
+
+
+
+}
